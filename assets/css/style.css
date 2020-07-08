@@ -1,3 +1,4 @@
+/* General CSS */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,12 +42,12 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Text */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Paragraph */
 p {
     font-size: 16px;
 }
@@ -58,7 +60,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Float */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,7 +70,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* Content */
 .content {
     width: 75%;
     display: inline-block;
@@ -187,7 +189,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Footer */
 .footer {
     padding: 30px;
     clear: both;
